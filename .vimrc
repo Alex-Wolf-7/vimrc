@@ -127,6 +127,10 @@ endif
 set noerrorbells
 
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 expandtab
+
+autocmd FileType typescriptreact setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType typescript setlocal shiftwidth=2 tabstop=2 expandtab
+
 set wildignore+=build/**,vendor/**
 
 augroup filetype
